@@ -15,6 +15,7 @@
     "example:react": "preconstruct dev && cd examples && cd react && yarn dev",
     "build": "preconstruct build",
     "postinstall": "preconstruct dev",
+    "release": "preconstruct build && changeset && changeset publish",
     "publish": "yarn preconstruct build && yarn changeset publish"
   },
   "devDependencies": {
